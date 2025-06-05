@@ -6,12 +6,15 @@ RUN apt update \
         bowtie \
         bowtie2 \
         openjdk-21-jre \
+        python3.12-venv \
         r-base \
         r-base-dev \
+        r-base-devtools \
         r-cran-dplyr \
         r-cran-ggplot2 \
+        r-cran-ggrepel \
+        r-cran-optparse \
         r-cran-patchwork \
-        r-cran-plotly \
         r-cran-rcolorbrewer \
         r-cran-rmarkdown \
         r-cran-tidyr \
