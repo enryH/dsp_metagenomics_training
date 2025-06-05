@@ -1,6 +1,6 @@
 install.packages(
   c(
-    "FSA", "languageserver", "BiocManager"
+    "FSA", "languageserver", "devtools", "BiocManager"
   ),
   dependencies = TRUE,
   repos = "https://cloud.r-project.org",

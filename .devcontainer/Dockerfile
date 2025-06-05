@@ -3,13 +3,10 @@ WORKDIR /home
 
 RUN apt update \
     && apt -y install \
-        bowtie \
-        bowtie2 \
         openjdk-21-jre \
         python3.12-venv \
         r-base \
         r-base-dev \
-        r-base-devtools \
         r-cran-dplyr \
         r-cran-ggplot2 \
         r-cran-ggrepel \
